@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>cockpit.ac</path>
+  <offsets>
+   <x-m></x-m>
+   <y-m></y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+
+  <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>100</max-m>
+    </animation>
+  
+  
+ <model>
+  
+  <path>Aircraft/F-16C/Models/Cockpit/F-16C-50/panel.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </offsets>
+ 
+ </model>
+ 
+  <model>
+  <name>AcesII</name>
+  <path>Aircraft/F-16C/Models/Cockpit/AcesII/acesII.xml</path>
+  <offsets>
+   <x-m></x-m>
+   <y-m></y-m>
+   <z-m></z-m>
+  </offsets>
+ 
+ </model>
+ 
+ <model>
+  <name>pilot</name>
+  <path>Aircraft/F-16C/Models/Cockpit/Pilot/pilot.xml</path>
+  <offsets>
+   <x-m>-4.1</x-m>
+   <y-m>0</y-m>
+   <z-m>0.38</z-m>
+    <pitch-deg> 15.0 </pitch-deg>
+  </offsets>
+</model>
+
+ <!-- Pilot invisible from internally -->
+
+    <animation>
+        <type>select</type>
+        <object-name>pilot</object-name>
+		
+		<condition>
+<not>
+            <property>sim/current-view/internal</property>
+</not>
+        </condition>
+    </animation>		
+
+</PropertyList>
