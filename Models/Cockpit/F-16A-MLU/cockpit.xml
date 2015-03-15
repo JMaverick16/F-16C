@@ -11,18 +11,18 @@
 
  <model>
   <name>AcesII</name>
-  <path>Aircraft/f16/Models/Cockpit/AcesII/acesII.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/AcesII/acesII.xml</path>
  </model>
  
  <model>
   <name>Pilot_ext</name>
-  <path>Aircraft/f16/Models/Pilots/pilot_externalview.xml</path>
+  <path>Aircraft/F-16C/Models/Pilots/pilot_externalview.xml</path>
  </model>
 
 <!--
  <model>
   <name>Pilot_int</name>
-  <path>Aircraft/f16/Models/Pilots/pilot_internalview.xml</path>
+  <path>Aircraft/F-16C/Models/Pilots/pilot_internalview.xml</path>
  </model>
 -->
 
@@ -68,7 +68,7 @@
 
  <model>
   <name>RudderPedals</name>
-  <path>Aircraft/f16/Models/Cockpit/rudder_pedals.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/rudder_pedals.xml</path>
   <offsets>
    <x-m>-5.05</x-m>
    <y-m>0.0</y-m>
@@ -78,7 +78,7 @@
 
  <model>
   <name>Throttle</name>
-  <path>Aircraft/f16/Models/Cockpit/throttle.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/throttle.xml</path>
   <offsets>
    <x-m>-4.29</x-m>
    <y-m>-0.49</y-m>
@@ -98,7 +98,7 @@
 <!-- ======= START CONSOLES ======= -->
  <model>
   <name>LeftConsole</name>
-  <path>Aircraft/f16/Models/Cockpit/F-16A-MLU/panels_mlu_left-console.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/F-16A-MLU/panels_mlu_left-console.xml</path>
   <offsets>
    <x-m>-4.54</x-m>
    <y-m>-0.005</y-m>
@@ -109,7 +109,7 @@
 
  <model>
   <name>LeftAuxConsole</name>
-  <path>Aircraft/f16/Models/Cockpit/F-16A-MLU/panels_mlu_left-aux-console.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/F-16A-MLU/panels_mlu_left-aux-console.xml</path>
   <offsets>
    <x-m>-4.563</x-m>
    <y-m>-0.005</y-m>
@@ -122,7 +122,7 @@
 
  <model>
   <name>MISC</name>
-  <path>Aircraft/f16/Models/Cockpit/F-16A-MLU/misc.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/F-16A-MLU/misc.xml</path>
   <offsets>
    <x-m>-4.665</x-m>
    <y-m>0.018</y-m>
@@ -135,7 +135,7 @@
 <!-- center console 1st row -->
  <model>
   <name>ASI</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/asi.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/asi.xml</path>
   <offsets>
    <x-m>-4.727</x-m>
    <y-m>-0.0423</y-m>
@@ -146,7 +146,7 @@
 
  <model>
   <name>altitude</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/altimeter.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/altimeter.xml</path>
   <offsets>
    <x-m>-4.727</x-m>
    <y-m>0.041</y-m>
@@ -159,7 +159,7 @@
 <!-- center console 2nd row -->
  <model>
   <name>aoa-gauge</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/aoa-gauge.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/aoa-gauge.xml</path>
   <offsets>
    <x-m>-4.696</x-m>
    <y-m>-0.0608</y-m>
@@ -170,7 +170,7 @@
 
  <model>
   <name>adi</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/adi.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/adi.xml</path>
   <offsets>
    <x-m>-4.696</x-m>
    <y-m>0</y-m>
@@ -181,7 +181,7 @@
 
  <model>
   <name>vsi</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/vsi.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/vsi.xml</path>
   <offsets>
    <x-m>-4.696</x-m>
    <y-m>0.0608</y-m>
@@ -194,7 +194,7 @@
 <!-- center console 3rd row -->
  <model>
   <name>Instrument Mode</name>
-  <path>Aircraft/f16/Models/Cockpit/Panels/instr.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Panels/instr.xml</path>
   <offsets>
    <x-m>-4.643</x-m>
    <y-m>-0.0614</y-m>
@@ -205,7 +205,7 @@
 
  <model>
   <name>HSI</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/hsi.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/hsi.xml</path>
   <offsets>
    <x-m>-4.643</x-m>
    <y-m>0</y-m>
@@ -216,7 +216,7 @@
 
  <model>
   <name>Fuel Quantity Sel</name>
-  <path>Aircraft/f16/Models/Cockpit/Panels/fuel-qty-sel.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Panels/fuel-qty-sel.xml</path>
   <offsets>
    <x-m>-4.628</x-m>
    <y-m>0.0537</y-m>
@@ -228,7 +228,7 @@
 
  <model>
   <name>RightAuxConsole</name>
-  <path>Aircraft/f16/Models/Cockpit/F-16A-MLU/panels_mlu_right-aux-console.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/F-16A-MLU/panels_mlu_right-aux-console.xml</path>
   <offsets>
    <x-m>-4.563</x-m>
    <y-m>-0.0</y-m>
@@ -242,7 +242,7 @@
 
  <model>
   <name>RightConsole</name>
-  <path>Aircraft/f16/Models/Cockpit/F-16A-MLU/panels_mlu_right-console.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/F-16A-MLU/panels_mlu_right-console.xml</path>
   <offsets>
    <x-m>-4.54</x-m>
    <y-m>-0.0</y-m>
@@ -256,7 +256,7 @@
 <!-- ======= START INSTRUMENTS ======= -->
  <model>
   <name>FUELFLOW</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/fuelflow.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/fuelflow.xml</path>
   <offsets>
    <x-m>-4.79</x-m>
    <y-m>0.20</y-m>
@@ -267,7 +267,7 @@
 
  <model>
   <name>AI</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/stdby-adi.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/stdby-adi.xml</path>
   <offsets>
    <x-m>-4.795</x-m>
    <y-m>0.145</y-m>
@@ -278,7 +278,7 @@
  
  <model>
   <name>ENGINE</name>
-  <path>Aircraft/f16/Models/Cockpit/F-16A-MLU/engine.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/F-16A-MLU/engine.xml</path>
   <offsets>
    <x-m>-4.555</x-m>
    <y-m>-0.0175</y-m>
@@ -289,7 +289,7 @@
 
  <model>
   <name>COMPASS</name>
-  <path>Aircraft/f16/Models/Cockpit/Instruments/mag-compass.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/mag-compass.xml</path>
   <offsets>
    <x-m>-4.68</x-m>
    <y-m>0.281</y-m>
@@ -302,17 +302,17 @@
 <!-- ======= START INDICATORS ======= -->
  <model>
   <name>EYEBROW_RIGHT</name>
-  <path>Aircraft/f16/Models/Cockpit/F-16A-MLU/eyebrow_right.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/F-16A-MLU/eyebrow_right.xml</path>
  </model>
 
  <model>
   <name>EYEBROW_LEFT</name>
-  <path>Aircraft/f16/Models/Cockpit/F-16A-MLU/eyebrow_left.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/F-16A-MLU/eyebrow_left.xml</path>
  </model>
 
  <model>
   <name>THREAT</name>
-  <path>Aircraft/f16/Models/Cockpit/Avionics/EWS/MLU_threat_warning_prime.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Avionics/EWS/MLU_threat_warning_prime.xml</path>
   <offsets>
    <x-m>-4.786</x-m>
    <y-m>-0.203</y-m>
@@ -416,12 +416,12 @@
 <!-- ======= START AVIONICS ======= -->
  <model>
   <name>DED</name>
-  <path>Aircraft/f16/Models/Cockpit/Avionics/DED/ded.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Avionics/DED/ded.xml</path>
  </model>
 
  <model>
   <name>IFF</name>
-  <path>Aircraft/f16/Models/Cockpit/Avionics/EWS/rwr.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Avionics/EWS/rwr.xml</path>
   <offsets>
    <x-m>-4.77</x-m>
    <y-m>-0.125</y-m>
@@ -432,7 +432,7 @@
 
 <model>
   <name>MFD1</name>
-  <path>Aircraft/f16/Models/Cockpit/Avionics/MFD/mfd_left.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Avionics/MFD/mfd_left.xml</path>
   <offsets>
    <x-m>-4.755</x-m>
    <y-m>-0.156</y-m>
@@ -443,7 +443,7 @@
 
  <model>
   <name>MFD2</name>
-  <path>Aircraft/f16/Models/Cockpit/Avionics/MFD/mfd_right.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Avionics/MFD/mfd_right.xml</path>
   <offsets>
    <x-m>-4.755</x-m>
    <y-m>0.158</y-m>
@@ -467,7 +467,7 @@
 
  <model>
   <name>ICP</name>
-  <path>Aircraft/f16/Models/Cockpit/Panels/icp.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Panels/icp.xml</path>
   <offsets>
    <x-m>-4.555</x-m>
    <y-m>0.0</y-m>

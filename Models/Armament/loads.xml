@@ -30,7 +30,7 @@
 <and>
 <equals>
 <property>sim/weight[0]/selected</property>
-<value>Dummy-AIM-9</value>
+<value>Dummy</value>
 </equals>
 <equals>
 <property>controls/armament/station[0]/release</property>
@@ -738,7 +738,7 @@
 <and>
 <equals>
 <property>sim/weight[8]/selected</property>
-<value>Dummy-AIM-9</value>
+<value>Dummy</value>
 </equals>
 <equals>
 <property>controls/armament/station[8]/release</property>

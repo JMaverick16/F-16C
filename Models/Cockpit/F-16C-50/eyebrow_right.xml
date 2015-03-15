@@ -9,7 +9,7 @@
   <object-name>canopy</object-name>
   <condition>
    <greater-than>
-    <property>fdm/jsbsim/fcs/canopy-pos-norm</property>
+    <property>instrumentation/doors/crew/position-norm</property>
     <value>0.0</value>
    </greater-than>
   </condition>

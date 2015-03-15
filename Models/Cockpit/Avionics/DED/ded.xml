@@ -6,7 +6,7 @@
 
  <panel>
   <name>Panel3D</name>
-  <path>Aircraft/f16/Models/Cockpit/Avionics/DED/ded-display.xml</path>
+  <path>Aircraft/F-16C/Models/Cockpit/Avionics/DED/ded-display.xml</path>
   <bottom-left>
    <x-m>-4.675</x-m>
    <y-m>0.092</y-m>

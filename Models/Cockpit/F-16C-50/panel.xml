@@ -461,6 +461,26 @@
    <pitch-deg>-13.8</pitch-deg>
   </offsets>
  </model>
+ 
+ <model>
+  <name>MFD1a</name>
+  <path>Aircraft/F-16C/Models/Cockpit/Instruments/Radar/Gradar.xml</path>
+  <offsets>
+   <x-m>-4.75</x-m>
+   <y-m>-0.154</y-m>
+   <z-m>0.49</z-m>
+   <pitch-deg>-13.8</pitch-deg>
+  </offsets>
+  <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+ </model>
 
  <model>
   <name>MFD2</name>
@@ -471,18 +491,21 @@
    <z-m>0.48</z-m>
    <pitch-deg>-13.8</pitch-deg>
   </offsets>
- </model>
-
- <model>
-  <name>RADAR_SCREEN</name>
-  <path>Aircraft/Instruments-3d/radar2/radar-screen.xml</path>
+   </model>
+  
+   <model>
+  <name>MFD2a</name>
+   <path>Aircraft/F-16C/Models/Cockpit/Instruments/map/map.xml</path>
   <offsets>
-   <x-m>-4.760</x-m>
-   <y-m>-0.158</y-m>
-   <z-m>0.4793</z-m>
+   <x-m>-4.75</x-m>
+   <y-m>0.158</y-m>
+   <z-m>0.48</z-m>
    <pitch-deg>-13.8</pitch-deg>
   </offsets>
+  
+
  </model>
+
 <!-- ======= END AVIONICS ======= -->
 
 
@@ -510,35 +533,7 @@
  </model>
 
 
-<!--
- <animation>
-  <type>select</type>
-  <condition>
-   <equals>
-    <property>sim/current-view/internal</property>
-    <value>true</value>
-   </equals>
-  </condition>
-  <object-name>FUELFLOW</object-name>
-  <object-name>AI</object-name>
-  <object-name>DED</object-name>
-  <object-name>ICP</object-name>
-  <object-name>EYEBROW_RIGHT</object-name>
-  <object-name>EYEBROW_LEFT</object-name>
-  <object-name>THREAT</object-name>
-  <object-name>IFF</object-name>
-  <object-name>MISC</object-name>
-  <object-name>ENGINE</object-name>
-  <object-name>COMPASS</object-name>
-  <object-name>FUEL</object-name>
-  <object-name>LEFT</object-name>
-  <object-name>MFD1</object-name>
-  <object-name>MFD2</object-name>
-  <object-name>ASI</object-name>
-  <object-name>altitude</object-name>
-  <object-name>adi</object-name>
- </animation>
--->
+
 
 
 </PropertyList>
