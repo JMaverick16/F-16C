@@ -904,6 +904,7 @@
    <file>Aircraft/F-16C/Nasal/f16.nas</file>
    <file>Aircraft/F-16C/Nasal/liveries.nas</file>
    <file>Aircraft/F-16C/Nasal/tyresmoke.nas</file>
+   <file>Aircraft/F-16C/Nasal/damage.nas</file>
     
   </f16>
    <doors>
